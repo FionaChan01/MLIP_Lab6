@@ -19,7 +19,7 @@ pipeline {
                 sudo /home/qianchec/miniconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                sudo /home/qianchec/miniconda3/condabin/conda run -n <Envinronment Name> <Command you want to run>
+                sudo /home/qianchec/miniconda3/condabin/conda run -n mlip pytest
 
                 echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
